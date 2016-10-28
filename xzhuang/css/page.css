@@ -1,0 +1,228 @@
+.newHome-page{
+	margin-top: 40px;
+}
+/*分页左边部分*/
+.page-left{
+	height: auto!important;
+}
+.page-left-one{
+	height:auto!important;
+	border: 1px solid #E8E8E8;
+	border-top: 2px solid #FC733F;
+	margin-bottom: 20px;
+}
+.page-list h2{
+	margin: 0!important;
+	height: 35px;
+    background: #F8F8F8;
+    font: normal 700 14px "宋体";
+    color: #232323;
+    line-height: 35px;
+    padding-left: 20px;
+    border-bottom: 1px solid #E8E8E8;
+    cursor: pointer;
+    text-align: left;
+}
+.page-list a{
+	color:#666;
+}
+.page-list a:hover{
+	color:#e73a77;
+}
+.btn-close{
+	display: block;
+    height: 35px;
+    width: 40px;
+    float: right;
+    background: url(../images/img/list_close.jpg) 50% 50% no-repeat;
+}
+.page-list-main{
+	background: #fff;
+    font: normal 12px "宋体";
+    color: #232323;
+    line-height: 25px;
+    padding-left: 20px;
+    border-bottom: 1px solid #E8E8E8;
+    display: none;
+}
+.page-list-main li{
+	margin-left: 30px;
+    height: 25px;
+    cursor: pointer;
+    text-align: left;
+}
+.page-list-main li a{
+	color:#666;
+}
+.page-list-main li a:hover{
+	color:#e73a77;
+}
+.aa{
+	height:30px;
+	font: bold 14px/30px "microsoft yahei";
+	color: #666;
+	text-align: left;
+	padding-left:10px;
+	background: #F8F8F8;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.page-left-one dl{
+	height: 72px;
+    border-bottom: 1px dashed #E8E8E8;
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font: normal 12px "宋体";
+}
+.page-left-one dl dt{
+	float:left;
+	width:62px;
+	height:62px;
+}
+.page-left-one dl dt img{
+	width:62px;
+	height:62px;
+}
+.page-left-one dd{
+	text-align: left;
+    overflow: hidden;
+    width: 93px;
+    height: 72px;
+    line-height: 14px;
+    float: left;
+    margin-left: 5px;
+ }  
+.page-left-one dd p{
+	    word-break: break-all;
+}
+.page-left-one dd  a{
+	color:#666;
+}
+.page-left-one dd  a:hover{
+	color:#e73a77;
+}
+.page-left-one dl .page-name{
+	height: 36px;
+    overflow: hidden;
+    line-height: 1.5;
+}
+.page-left-one dl .page-price{
+	margin-top: 10px;
+    font: normal 600 12px arial;
+    color: #FC733F;
+}
+.page-left-one dl .page-price span{
+	font: normal 8px arial;
+    color: #9A9A9A;
+    text-decoration: line-through;
+}
+/*分页右边部分*/
+.page-right-main{
+	margin-left:10px;
+	min-height: 300px;
+	height:auto!important;
+	height:300px;
+	border-top: 2px solid #FC733F;
+	margin-bottom: 10px;
+}
+.txt{
+	height:30px;
+	background: #F8F8F8;
+}
+.page-right-content{
+	margin:5px 0 0 5px;
+	display:flex;
+	align-items: center;
+	flex-flow: row wrap; 
+}
+.page-right-content .right-list{
+	cursor: pointer;
+    width: 204px;
+    height: 358px;
+    float: left;
+    font: normal 12px "宋体";
+    line-height: 20px;
+    position: relative;
+    padding: 2px 2px 5px 2px;
+    z-index: 1;
+    margin-left:3px;
+}
+.page-right-content .right-list:hover{
+	border:2px solid #FC733F;
+}
+.page-right-content .right-list dt{
+	width:198px;
+	height:250px;
+	margin: 0!important;
+}
+.page-right-content .right-list dt img{
+	width:198px;
+	height:253px;
+}
+.page-right-content .right-list dd{
+	text-align: left;
+}
+.page-right-content .price{
+	font: normal 700 16px arial;
+    color: #FC733F;
+    line-height: 20px;
+    text-align: left;
+    margin: 0;
+}
+.page-right-content .price span{
+	font: normal 10px arial;
+    color: #9A9A9A;
+    text-decoration: line-through;
+}
+.page-right-content .pdown{
+	margin: 10px 0;
+}
+.page-btn{
+	background: url("../images/page/list_bt.jpg") no-repeat;
+    border: medium none;
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    width: 71px;
+    float: right;
+    margin-right: 0;
+	
+}
+.page-right-bottom{
+	height:40px;
+	line-height: 30px;
+}
+.page-right-bottom input{
+	display: inline-block;
+	width:60px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	margin-top: 10px;
+	background: #fff;
+	color:#666;
+}
+.page-right-bottom span{
+	display: inline-block;
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.page-right-bottom span:hover{
+	background:#FC733F;
+	color:#fff;
+}
+.page-right-bottom input:hover{
+	background:#FC733F;
+	color:#fff;
+}
+/*分页底部*/
+.page-bottom {
+	margin-top:50px;
+}

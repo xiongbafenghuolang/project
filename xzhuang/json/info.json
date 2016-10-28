@@ -1,0 +1,206 @@
+[
+	{
+		"reason":"success",
+		"result":[
+			{
+				"id":"0001",
+				"title":"澳格菲玫瑰精油滋养护手霜",
+				"priced":"15.9",
+				"price":"29.00",
+				"imgres":"su1.jpg",
+				"sale_num":"296"
+			},
+			{
+				"id":"0002",
+				"title":"澳格菲玫瑰精油滋养护手霜50g",
+				"priced":"14.6",
+				"price":"29.00",
+				"imgres":"su2.jpg",
+				"sale_num":"296"
+			},
+			{
+				"id":"0003",
+				"title":"澳格菲玫瑰精油滋养护手霜50g",
+				"priced":"34.9",
+				"price":"29.00",
+				"imgres":"su3.jpg",
+				"sale_num":"296"
+			},
+			{
+				"id":"0004",
+				"title":"澳格菲玫瑰精油滋养护手霜50g",
+				"priced":"15.3",
+				"price":"29.00",
+				"imgres":"su4.jpg",
+				"sale_num":"296"
+			},
+			{
+				"id":"0005",
+				"title":"澳格菲玫瑰精油滋养护手霜50g",
+				"priced":"24.9",
+				"price":"29.00",
+				"imgres":"su5.jpg",
+				"sale_num":"296"
+			},
+			{
+				"id":"0006",
+				"title":"澳格菲玫瑰精油滋养护手霜50g",
+				"priced":"34.4",
+				"price":"29.00",
+				"imgres":"su6.jpg",
+				"sale_num":"296"
+			}
+		]	
+
+	},
+	{
+		"reason":"success",
+		"result":[
+			{
+				"id":"0001",
+				"title":"MARUBI丸美",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot1.jpg",
+				"sale_num":"736",
+				"discount":"8.1折",
+				"status":1,
+				"sale":"爆款甩货"
+			},
+			{
+				"id":"0002",
+				"title":"THE FACE SHOP菲诗小铺",
+				"content":"THE FACE SHOP菲诗小铺黑杆防水睫毛膏(1#纤长)7ml（新老包装交替中）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot2.jpg",
+				"sale_num":"736",
+				"discount":"8.1折",
+				"status":2,
+				"sale":"真心便宜"
+			},
+			{
+				"id":"0003",
+				"title":"KanS韩束",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot3.jpg",
+				"sale_num":"736",
+				"discount":"8.1折",
+				"status":3,
+				"sale":"仅限今日"
+			},
+			{
+				"id":"0004",
+				"title":"THE FACE SHOP菲诗小铺",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot4.jpg",
+				"sale_num":"736",
+				"discount":"8.1折",
+				"status":1,
+				"sale":"爆款甩货"
+			},
+			{
+				"id":"0005",
+				"title":"KanS韩束",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot5.jpg",
+				"sale_num":"736",
+				"discount":"8.1折",
+				"status":2,
+				"sale":"真心便宜"
+			},
+			{
+				"id":"0006",
+				"title":"MISSHA谜尚",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"132.0",
+				"price":"142.00",
+				"imgres":"hot6.jpg",
+				"sale_num":"736",
+				"discount":"8.8折",
+				"status":3,
+				"sale":"仅限今日"
+			},
+			{
+				"id":"0007",
+				"title":"THE FACE SHOP菲诗小铺",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot7.jpg",
+				"sale_num":"736",
+				"discount":"8.4折",
+				"status":1,
+				"sale":"爆款甩货"
+			},
+			{
+				"id":"0008",
+				"title":"MISSHA谜尚",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"172.00",
+				"imgres":"hot8.jpg",
+				"sale_num":"736",
+				"discount":"8.5折",
+				"status":2,
+				"sale":"真心便宜"
+			},
+			{
+				"id":"0009",
+				"title":"KanS韩束",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"162.00",
+				"imgres":"hot9.jpg",
+				"sale_num":"746",
+				"discount":"7.1折",
+				"status":3,
+				"sale":"仅限今日"
+			},
+			{
+				"id":"0010",
+				"title":"MARUBI丸美",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"133.0",
+				"price":"188.00",
+				"imgres":"hot10.jpg",
+				"sale_num":"766",
+				"discount":"6.4折",
+				"status":1,
+				"sale":"爆款甩货"
+			},
+			{
+				"id":"0011",
+				"title":"SKIN79",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"129.0",
+				"price":"142.00",
+				"imgres":"hot11.jpg",
+				"sale_num":"736",
+				"discount":"9.5折",
+				"status":2,
+				"sale":"真心便宜"
+			},
+			{
+				"id":"0012",
+				"title":"OSM欧诗漫",
+				"content":"KanS韩束水嫩亮颜六件套（洗颜霜120ml+柔肤水150ml+保湿乳130ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）（小样随机发）",
+				"priced":"139.0",
+				"price":"162.00",
+				"imgres":"hot12.jpg",
+				"sale_num":"746",
+				"discount":"7.1折",
+				"status":3,
+				"sale":"仅限今日"
+			}
+		]	
+
+	}
+]

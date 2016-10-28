@@ -1,0 +1,56 @@
+.newHome-login{
+	margin-top: 50px;
+}
+.newHome-login-left{
+	height:440px;
+	border-right:1px solid #ccc;
+}
+.login-left-img{
+	margin-top:30px;
+}
+.newHome-login-right{
+	color: #a5a5a5;
+}
+.newHome-login-right a:hover{
+	color:#e73a77;
+}
+.login-tit{
+	text-align: left;
+	font-size:26px;
+	height: 30px;
+	margin: 25px 0 20px 28px;
+}
+.login-tit strong{
+	color:#e73a77;
+	margin-right:50px;
+}
+.login-tit span{
+	font-size: 14px;
+}
+.login-tit a{
+	font-size: 14px;
+	color:#e73a77;
+}
+.checkbox label{
+	float: left;
+}
+.checkbox a{
+	float: right;
+	color: #e73a77;
+}
+.btn{
+	width:345px;
+	background: #e73a77!important;
+	color: #fff!important;
+}
+.login-right-bottom{
+	width:200px;
+	height:50px;
+	margin-top:30px;
+}
+.login-right-bottom img{
+	margin-right: 20px;
+}
+.login_bottom{
+	margin-top:50px;
+}

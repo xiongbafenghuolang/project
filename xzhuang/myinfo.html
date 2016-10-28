@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<!-- xzhuang共同样式 -->
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 首页样式 -->
+	<link rel="stylesheet" href="css/index.css">
+	<!--详情样式-->
+	<link rel="stylesheet" href="css/info.css">
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="js/jquery_1.11.3.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="js/bootstrap.min.js"></script>
+	<!--cookie部分js-->
+	<script src="js/jquery.cookie.js"></script>
+	<!-- 首页JS -->
+	<script src="js/index.js"></script>
+	<!--登录部分js-->
+	<script src="js/login.js"></script>
+	<!--详情部分js-->
+	<script src="js/myinfo.js"></script>
+	
+</head>
+<body>
+<!-- ***************************header****************************-->
+<!-- 头部导航开始 -->
+<div id="top_nav">
+	<div id="wrap" class="col-md-10 col-md-offset-1 headernav1">
+			<!-- 左边开始 -->
+				<div class="col-md-3  headernav1_left p_d"> 
+					<a href="">会员卡激活</a> |
+					<a href="">讲师查询</a> |
+					<a href="">校园活动</a>
+				</div>
+			<!-- 左边结束 -->
+			<!-- 右边开始 -->
+				<div class="col-md-5 col-md-offset-4  headernav1_right">
+					<ul class="list">
+						<li>
+							<a class="login" href="login.html">【登录】</a>
+							<a class="register" href="register.html">【注册】</a>
+						</li>
+						<li class="w80">
+							<span>
+								<a href="">我的订单 </a>
+							</span>
+							<em>|</em>
+						</li>
+						<li class="w80">
+							<span id="myxz" >
+								<a href="">我的校妆 
+									<ul id="list1">
+										<li><a href="#">我的校妆</a></li>
+										<li><a href="#">我的优惠券</a></li>
+										<li><a href="#">我的积分</a></li>
+										<li><a href="#">我的储值</a></li>
+										<li><a href="#">我的咨询</a></li>
+										<li><a href="#">我的收藏</a></li>
+									</ul>
+								</a>
+							</span>
+							<em>|</em></li>
+						<li class="w80">
+							<span id="service">
+								<a href="">客户服务
+									<ul id="list2">
+										<li><a href="#">客户服务</a></li>
+										<li><a href="#">帮助中心</a></li>
+										<li><a href="#">用户反馈</a></li>
+									</ul>
+								</a>
+							</span>
+						</li>
+					</ul> 
+				</div>
+			<!-- 右边结束 -->
+	</div>
+</div>
+		
+<!-- 头部导航结束 -->
+<!--*********************logo*************************************-->
+<!-- logo开始 -->
+<div class="logo clearfix">
+	<div class="row col-md-10 col-md-offset-1 logo1">
+		<div class="col-md-2 logo_left p_d">
+			<a class="newHome-logo p" href="#"></a>
+		</div>
+		<!-- 搜索表单 -->
+		<div class="col-md-5 col-md-offset-1 logo_center">
+			<div class="clearfix">
+				<div class="search" name="formsearch">
+					<form action="">
+						<input type="text" class="searchin" value="skin79" >
+						<input class="searchbtss" type="button">
+					</form>
+				</div> 
+			</div>
+			<ul class="hot-word">
+				<li>热门:</li>
+				<li><a class="SKIN79" href="page.html">SKIN79</a></li>
+				<li><a href="page.html">SUNSHOP</a></li>
+				<li><a href="page.html">乳液</a></li>
+				<li><a href="page.html">护肤套装</a></li>
+				<li><a href="page.html">保湿补水</a></li>
+				<li><a href="page.html">面膜</a></li>
+				<li><a href="page.html">BB霜</a></li>
+				<li><a href="page.html">美白</a></li>
+			</ul>
+		</div>
+		<div class="col-md-4 col-md-offset-1  logo_right">
+			<ul>
+				<li>
+					<i class="i3"></i>
+					满98免运费
+				</li>
+				<li>
+					<i class="i2"></i>
+					校园服务
+				</li>
+				<li>
+					<i class="i1"></i>
+					100%正品
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- logo结束 -->
+<!--*********************nav*************************************-->
+<!-- 导航部分开始 -->
+<div class="nav">
+	<div class="row col-md-10 col-md-offset-1 nav1">
+		<ul class="newHome-nav-list clearfix">
+				<li class="allproduct-type">
+					<span id="allproduct-icon"></span>
+					<a href="#" class="active">全部商品分类</a>
+				</li>
+				<li><a href="index.html">首页</a></li>
+				<li class="SUNSHOP-type">
+					<a href="sunshop.html">SUNSHOP特惠区
+						<span id="temai-icon"></span>
+					</a>
+				</li>
+				<li>
+					<a href="">积分购
+						<span id="hot-icon"></span>
+					</a>
+				</li>
+				<li>
+					<a href="">美堂课</a>
+				</li>
+				<li>
+					<a href="phone.html">
+						<span id="new-icon"></span>
+						手机校妆
+					</a>
+				</li>
+				<li id="newHome-shopCar">
+					<a href="javascript:void(0)" id="go_cats">
+						<span class="new-cart-number">0</span>
+						购物车
+					</a>
+					<div class="MyshopCar">
+						<ul></ul>
+						<div class="MyshopCar-all">谁是你的菜？赶紧挑到碗里来！</div>
+					</div>
+				</li>
+			</ul>
+	</div>
+</div>
+<!-- 导航部分结束 -->
+<!--*********************详情部分*************************************-->
+<!-- 详情部分开始 -->
+<div class="banner clearfix">
+<!-- 全部商品分类开始 -->
+	<div style="display: none;" class="allproducts-type-nav">
+		<ul>
+			<li class="allproduct-type-nav-1">
+				<h4 class="pr m_b">
+					<span id="type-icons-1"></span>
+					<a href="">面部护肤</a>
+				</h4>
+				<div class="allproducts-type-div clearfix ">
+					<a href="">防晒隔离</a>
+					<a href="">面膜</a>
+					<a href="">眼部护理</a>
+					<a href="">护肤套装</a>
+					<em>></em>
+				</div>
+			<!-- 面部护肤开始 -->
+				<div class="allproducts-subtype-1">
+					<ul>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+					</ul>
+				</div>
+			<!-- 面部护肤结束 -->
+			</li>
+			<li class="allproduct-type-nav-2">
+				<h4 class="pr m_b">
+					<span id="type-icons-2"></span>
+					<a href="">时尚彩妆</a>
+				</h4>
+				<div class="allproducts-type-div clearfix ">
+					<a href="">面部妆容</a>
+					<a href="">眼部妆容</a>
+					<a href="">唇部妆容</a>
+					<a href="">彩妆套装</a>
+					<em>></em>
+				</div>
+			<!-- 时尚彩妆开始 -->
+				<div class="allproducts-subtype-2">
+					<ul>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+					</ul>
+				</div>
+			<!-- 时尚彩妆结束 -->
+			</li>
+			<li class="allproduct-type-nav-3">
+				<h4 class="pr m_b">
+					<span id="type-icons-3"></span>
+					<a href="">个人护理</a>
+				</h4>
+				<div class="allproducts-type-div clearfix ">
+					<a href="">身体润肤</a>
+					<a href="">沐浴清洁</a>
+					<a href="">手足护理</a>
+					<a href="">秀发洗护</a>
+					<em>></em>
+				</div>
+			<!-- 个人护理开始 -->
+				<div class="allproducts-subtype-3">
+					<ul>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>			
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+					</ul>
+				</div>
+			<!-- 个人护理结束 -->
+			</li>
+			<li class="allproduct-type-nav-4">
+				<h4 class="pr m_b">
+					<span id="type-icons-4"></span>
+					<a href="">美体/工具</a>
+				</h4>
+				<div class="allproducts-type-div clearfix ">
+					<a href="">美体塑身</a>
+					<a href="">身体脱毛</a>
+					<a href="">护肤工具</a>
+					<a href="">彩妆工具</a>
+					<em>></em>
+				</div>
+			<!-- 美体/工具开始 -->
+				<div class="allproducts-subtype-4">
+					<ul>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>			
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+					</ul>
+				</div>
+			<!-- 美体/工具结束 -->
+			</li>
+			<li class="allproduct-type-nav-5">
+				<h4 class="pr m_b">
+					<span id="type-icons-5"></span>
+					<a href="">男士护理</a>
+				</h4>
+				<div class="allproducts-type-div clearfix ">
+					<a href="">面部护理</a>
+					<a href="">剃须护理</a>
+					<a href="">身体护理</a>
+					<a href="">护理套装</a>
+					<em>></em>
+				</div>
+			<!-- 男士护理开始 -->
+				<div class="allproducts-subtype-5">
+					<ul>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>			
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>						
+					</ul>
+				</div>
+			<!-- 男士护理结束 -->
+			</li>
+			<li class="allproduct-type-nav-6">
+				<h4 class="pr m_b">
+					<span id="type-icons-6"></span>
+					<a href="">经典香氛</a>
+				</h4>
+				<div class="allproducts-type-div clearfix ">
+					<a href="">女士香水</a>
+					<a href="">男士香水</a>
+					<a href="">迷你香水</a>
+					<a href="">香水套装</a>
+					<em>></em>
+				</div>
+			<!-- 经典香氛开始 -->
+				<div class="allproducts-subtype-6">
+					<ul>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>	
+						<li>
+							<a class="bold" href="">面部妆容</a>
+							<a href="">BB霜</a>
+							<a href="">遮瑕笔</a>
+							<a href="">粉饼</a>
+							<a href="">粉底液/霜</a>
+							<a href="">散粉/蜜粉</a>
+							<a href="">腮红胭脂</a>
+							<a href="">CC霜</a>
+							<a href="">妆前乳</a>
+						</li>
+						<li>
+							<a class="bold" href="">化妆水</a>
+							<a href="">柔肤水</a>
+							<a href="">爽肤水</a>
+							<a href="">喷雾</a>
+							<a href="">紧肤水</a>
+							<a href="">洁肤水</a>
+							<a href="">调理水</a>
+							<a href="">纯露/花水</a>
+							<a href="">保湿水</a>
+						</li>	
+					</ul>
+				</div>
+			<!-- 经典香氛结束 -->
+			</li>
+		</ul>
+	</div>
+<!-- 全部商品分类结束 -->
+<!--详情部分开始-->
+<div class="col-md-10 col-md-offset-1 newHome-info">
+	
+	<div class="col-md-9 newHome-info-left">
+
+	</div>
+	<div class="col-md-3">
+		<div class="newHome-info-right">
+			<h2>唇膏排行榜</h2>
+				<dl>
+					<dt>
+						<a href="">
+							<img src="images/xq/xqa4.jpg" alt="" />
+						</a>
+					</dt>
+					<dd>
+						<p class="p-cont"><a href="">Efolar依芙拉（口红+唇彩）2合1组合6g+3.8g 4#婴儿粉</a></p>
+						<p class="p-price">¥12.90
+							<span>¥18.00</span>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<a href="">
+							<img src="images/xq/xqa4.jpg" alt="" />
+						</a>
+					</dt>
+					<dd>
+						<p class="p-cont"><a href="">Efolar依芙拉（口红+唇彩）2合1组合6g+3.8g 4#婴儿粉</a></p>
+						<p class="p-price">¥12.90
+							<span>¥18.00</span>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<a href="">
+							<img src="images/xq/xqa4.jpg" alt="" />
+						</a>
+					</dt>
+					<dd>
+						<p class="p-cont"><a href="">Efolar依芙拉（口红+唇彩）2合1组合6g+3.8g 4#婴儿粉</a></p>
+						<p class="p-price">¥12.90
+							<span>¥18.00</span>
+						</p>
+					</dd>
+				</dl>
+		</div>
+	</div>
+	<div class="info-fxd clear">
+		<span><i><img src="images/xq/fx1.jpg" alt="" /></i>分享到：</span>
+		<a><img src="images/xq/fx2.jpg" alt="" /></a>
+		<a><img src="images/xq/fx3.jpg" alt="" /></a>
+		<a><img src="images/xq/fx4.jpg" alt="" /></a>
+		<a><img src="images/xq/fx5.jpg" alt="" /></a>
+		<a><img src="images/xq/fx6.jpg" alt="" /></a>
+		<a><img src="images/xq/fx7.jpg" alt="" /></a>
+		<a><img src="images/xq/fx8.jpg" alt="" /></a>
+		<a><img src="images/xq/fx9.jpg" alt="" /></a>
+	</div>
+</div>
+<!--详情部分结束-->
+</div>
+<!--*********************main*************************************-->
+<!-- 内容部分开始 -->
+<div class="myinfo-bottom clearfix">
+	<div class="myinfo-bottom-nav">
+		<ul class="nav-list">
+			<li><a href="javascript:void(0)">商品参数</a></li>
+			<li><a href="javascript:void(0)">商品详情</a></li>
+			<li><a href="javascript:void(0)">口碑报告</a></li>
+			<li><a href="javascript:void(0)">商品咨询</a></li>
+			<li><a href="javascript:void(0)">服务承诺</a></li>
+		</ul>
+		<div class="addcards">
+			<span>¥6.9</span>
+			<a class="" href=""></a>
+		</div>
+	</div>
+	<ul class="myinfo-bottom-main">
+		<li class="spcs">
+			<p>
+				<span> 货　　号：14657</span>
+				<span> 品　　牌：相宜本草</span>
+			</p>
+			<p>
+				<span>适合肤质： 任何</span>
+				<span>容　　量： 100g+120ml+120ml</span>
+			</p>
+			<p>
+				<span>商品包装： 瓶装</span>
+				<span>已售出： 3007</span>
+				<span>所得积分：233</span>
+			</p>
+			<h3>芦荟多功能晒后修复镇静啫喱的八种用法：</h3>
+			<h4>1.紧急水分补给：皮肤干燥起皮时，用作补水面霜或面膜。在基础护肤的面霜或面膜步骤使用。</h4>
+ 			<h4>2.润泽妆容：用BB霜或者粉底液时，以2:1的比例，将BB霜或粉底液和镇静啫喱混合后使用，更容易上妆，使妆容更自然有光泽。（此方法会一定程度降低BB霜或粉底液的遮瑕力）</h4>
+			<h4>3.须后镇静：男士剃须后，可在剃须部位使用此产品，舒缓剃须对皮肤产生的刺激。</h4>	
+			<h4>4.给头发补水：可取适量本品用于发梢，防止发梢打结。清爽不黏腻。</h4>
+			<h4>5.补水眼膜：眼周干燥或者浮肿时，将冷藏过的镇静啫喱，蘸于化妆棉上，敷在眼部，可缓解干燥浮肿。</h4>
+			<h4>6.指甲护理：手指脚趾甲多次擦涂指甲油后，容易失去原有光泽。将本品涂于受损的指甲上并按摩吸收，可帮助恢复指甲光泽。</h4>
+			<h4>7.身体护理：可用于全身，滋润全身肌肤，防止干燥，使肌肤润泽柔滑。</h4>
+			<h4>8.晒后修复：夏季常备本品于冰箱冷藏室内，皮肤被阳光晒伤或者晒红时，将面膜纸在镇静啫喱中浸透后，在面部敷15分钟左右取下，可有效镇静晒伤刺激。（也可不适用面膜纸，涂厚厚一层于面部，保持15分钟左右后，将不能完全吸收的啫喱擦去即可）</h4>
+		</li>
+		<li><img src="images/xq/info1.jpg" alt="" /></li>
+		<li class="kbbg">
+			<h6><img src="images/xq/detail_title6.jpg" alt="" /></h6>
+			<div class="kbbg-title">
+				<div class="kbbg-title-left">
+					<div class="title-one">
+						<p>
+							<span class="public1">81%</span>
+							<span class="public2">好评率</span>
+						</p>
+						<p>
+							<img src="images/xq/4.5.png" alt="" />
+						</p>
+						<p>
+							<span class="public3">51</span>短评
+						</p>
+					</div>
+					<div class="title-two">
+						<p>
+							<span>好评（80%）</span>
+							<i><b class="good1"></b></i>
+						</p>
+						<p>
+							<span>中评（10%）</span>
+							<i><b class="good2"></b></i>
+						</p>
+						<p>
+							<span>差评（10%）</span>
+							<i><b class="good3"></b></i>
+						</p>
+					</div>
+				</div>
+				<div class="kbbg-title-right">
+					<div class="title-right-jf">
+						<p class="public4">发表评论即可获得<i>10</i>积分</p>
+					</div>
+					<div class="title-right-pl">
+						<a class="public5" id="btn-say" href="javascript:void(0)"></a>
+						<p class="public6">对已购买商品进行评价</p>
+					</div>
+				</div>
+			</div>
+			<div class="kbbg-list">
+				<dl>
+					<dt>
+						<img src="images/xq/bjin_paipai.jpg" alt="" />
+					</dt>
+					<dd class="comment_t">
+							<span>946***78</span>　
+		           		     白金会员            
+		                <div class="comment_star">
+		                    <img src="images/xq/5.0.png" alt="" width="84" height="16">
+		                </div>
+		                <div class="comment_time">2016-06-30 17:20:01</div>
+           			 </dd>
+					<dd class="comment_con">
+		                <div class="comment_text" style="height:auto;line-height:30px">
+		                    <p>一直用的这个，很好用</p>
+		                </div>
+            		</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="images/xq/bjin_paipai.jpg" alt="" />
+					</dt>
+					<dd class="comment_t">
+							<span>946***78</span>　
+		           		     白金会员            
+		                <div class="comment_star">
+		                    <img src="images/xq/5.0.png" alt="" width="84" height="16">
+		                </div>
+		                <div class="comment_time">2016-06-30 17:20:01</div>
+           			 </dd>
+					<dd class="comment_con">
+		                <div class="comment_text" style="height:auto;line-height:30px">
+		                    <p>很好用，做面膜还是晒后修复都不错</p>
+		                </div>
+            		</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="images/xq/bjin_paipai.jpg" alt="" />
+					</dt>
+					<dd class="comment_t">
+							<span>946***78</span>　
+		           		     白金会员            
+		                <div class="comment_star">
+		                    <img src="images/xq/5.0.png" alt="" width="84" height="16">
+		                </div>
+		                <div class="comment_time">2016-06-30 17:20:01</div>
+           			 </dd>
+					<dd class="comment_con">
+		                <div class="comment_text" style="height:auto;line-height:30px">
+		                    <p>味道香香的，用着凉凉的，挺不错</p>
+		                </div>
+            		</dd>
+				</dl>
+			</div>
+		</li>
+		<li class="spzx"><img src="images/xq/xz_adv7.jpg" alt="" /></li>
+		<li><img src="images/xq/xz_adv5.jpg" alt="" /></li>
+	</div>
+</div>
+<!-- 内容部分结束 -->
+<!--*********************footer*************************************-->
+<div class="footer clearfix">
+	<!--第一部分开始-->
+	<div class="footer-outer clearfix">
+		<div class=" footer-inner">
+			<ul class="clearfix">
+				<li>
+					<a class="img1" href=""></a>
+					<div>
+						<p>正品承诺</p>
+						<span>100%正品保障</span>
+					</div>
+				</li>
+				<li>
+					<a class="img2" href=""></a>
+					<div>
+						<p>美妆事业</p>
+						<span>专业团队保障</span>
+					</div>
+				</li>
+				<li>
+					<a class="img3" href=""></a>
+					<div>
+						<p>校园服务</p>
+						<span>细致贴心服务</span>
+					</div>
+				</li>
+				<li>
+					<a class="img4" href=""></a>
+					<div>
+						<p>包裹派发</p>
+						<span>18小时内闪电发货</span>
+					</div>
+				</li>
+				<li>
+					<a class="img5" href=""></a>
+					<div>
+						<p>金牌客服</p>
+						<span>7*24小时优质售后服务</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--第一部分结束-->
+	<p class="cont"></p>
+	<!--第二部分开始-->
+	<div class="col-md-10 col-md-offset-1 footer-main clearfix">
+		<div class="col-md-12 footer-main-content row m_g m_d">
+			<div class="col-md-6 list">
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">用户注册</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+					<dd><a href="#">购物流程</a></dd>
+				</dl>
+				<dl>
+					<dt>安全支付</dt>
+					<dd><a href="#">在线支付</a></dd>
+					<dd><a href="#">会员储值</a></dd>
+					<dd><a href="#">货到付款</a></dd>
+				</dl>
+				<dl>
+					<dt>配送流程</dt>
+					<dd><a href="#">配送说明</a></dd>
+					<dd><a href="#">验货查收</a></dd>
+					<dd><a href="#">商品包装</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="#">100%正品</a></dd>
+					<dd><a href="#">退换货政策</a></dd>
+					<dd><a href="#">退换货流程</a></dd>
+				</dl>
+			</div>
+			<div class="col-md-3 footer-code">
+				<p>关注微信号</p>
+				<p class="bottomCode">
+					<img src="images/bottomCode.jpg" alt="" />
+				</p>
+			</div>
+			<div class="footer-contact">
+				<p>全国统一客服热线</p>
+				<p class="tel">400-036-9090</p>
+				<p>
+					客服邮箱：
+					<a href="#">kefu@pingdagroup.com</a>	
+				</p>
+				<p>
+					投诉邮箱：
+					<a href="#">monitor@xzhuang.com</a>
+				</p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	<!--第二部分结束-->
+<!--*********************Copyright *************************************-->
+	<div class="col-md-10 col-md-offset-1 Copyright clearfix">
+		<p class="cont"></p>
+		<div class="Copyright-one">
+			<a href="">关于校妆</a> |
+			<a href="">隐私声明</a> |
+			<a href="">网站地图</a> |
+			<a href="">联系我们</a> |
+			<a href="">品牌合作</a> |
+			<a href="">安全联盟</a>
+		</div>
+		<div class="Copyright-one">
+			Copyright 2008-2016 上海校妆科技有限公司 Xzhuang.com 版权所有 沪ICP备15046755号
+		</div>
+		<div class="Copright-two">
+			<a href="">
+				<img src="images/zfb_18.jpg" alt="" />
+			</a>
+			<span>
+				<a href=""><img src="images/cnnic.png" alt="" /></a>
+			</span>
+			<a href="">
+				<img src="images/zfb_20.jpg" alt="" />
+			</a>
+		</div>
+	</div>
+</div>
+
+<!--弹窗显示开始-->
+<div id="dialog" style="display: none;">
+	<div  id="outer"></div>
+	<div id="inner">
+		<div class="inner-top">
+			<h4>购物车</h4>
+			<span class="close-outer" onclick="$('#dialog').hide();" title="关闭浮层">关闭 </span>
+		</div>
+		<div class="inner-center">
+			<div class="inner-center-main">
+				<i class="cartSuc_icon"></i>
+				<h2 class="f14">
+					<b>加入成功</b>
+				</h2>
+				<p class="f12" id="cat_title"></p>
+				<p class="f12">价格：￥<b id="cat_price"></b></p>
+			</div>
+		</div>
+		<div class="inner-bottom">
+			<p class="inner-bottom-action">
+				<a class="btn0 btn-action" href="shopcats.html"><em>去购物车结算</em></a>
+				<a class="btn0 btn-cancel" href="javascript:$('#dialog').hide();"><em>继续购物</em></a>
+			</p>
+		</div>
+	</div>
+</div>
+<!--评论弹窗-->
+<div id="say" style="display: none;">
+	<div id="out"></div>
+	<div id="in">
+		<div class="in-top">
+			<h4>我要评论</h4>
+			<span class="close-say"  title="关闭浮层">关闭 </span>
+		</div>
+		<textarea id="txt" name="textarea" rows="0" cols="">	
+		</textarea>
+		<p>
+			<input type="button" name="" id="subsay" value="提交评论" />
+		</p>
+		
+	</div>
+</div>
+</body>
+</html>

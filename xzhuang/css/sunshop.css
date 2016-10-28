@@ -1,0 +1,123 @@
+.newHome-sunshop{
+	margin-top: 40px;
+}
+.sunshop-title{
+	height: 50px;
+}
+.sunshop-title h3{
+	height:32px;
+	margin: 0 auto;
+	font: bolder 20px/32px "microsoft yahei";
+}
+.sunshop-title p{
+	width: 96%;
+	height:10px;
+	background: url("../images/sunshop/brand-bg.jpg")repeat-x;
+	border-bottom: 1px solid #ccc;
+	margin: auto;
+}
+.sunshop-main{
+	width: 96%;
+	margin: auto;
+	min-height: 300px;
+	height: auto!important;
+	height: 300px;
+	display:flex;
+	align-items: center;
+	flex-flow: row wrap;
+}
+.sunshop-main li{
+	width:202px;
+	height: 300px;
+	margin: 2px 20px;
+}
+.sunshop-main a:hover{
+	color: #f90;
+}
+.sunshop-main li:hover{
+	border: 1px solid #f90;
+}
+.sunshop-main .sunshop-img {
+	width:200px;
+	height:200px;
+	margin: auto;
+}
+.sunshop-main .sunshop-img img{
+	width:200px;
+	height:200px;
+}
+.sunshop-main  .sunshop-name{
+	width: 200px;
+	height:40px;
+	line-height:20px;
+	text-align: left;
+}
+.sunshop-name .sunshop-title{
+	color:#666;
+}
+.sunshop-main  .sunshop-price{
+	font: normal 700 16px arial;
+	color: #FC733F;
+	line-height: 30px;
+	margin-top: 10px;
+	text-align: left;
+}
+.sunshop-main  .sunshop-price b{
+	font-size: 16px;
+	color: #FF9065;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	margin: 0 10px 0 0;
+	display: inline;
+}
+.sunshop-main  .sunshop-price span{
+	font-size: 11px;
+	text-decoration: line-through;
+	margin-right: 15px;
+	color:#9A9A9A;
+}
+.sunshop-bottom{
+	height:40px;
+	line-height: 30px;
+}
+.sunshop-bottom input{
+	display: inline-block;
+	width:60px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	margin-top: 10px;
+	background: #fff;
+	color:#666;
+}
+.sunshop-bottom span{
+	display: inline-block;
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.sunshop-bottom span:hover{
+	background:#000;
+	color:#fff;
+}
+.sunshop-bottom input:hover{
+	background:#000;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+/*特惠区底部*/
+.sunshop-bottom {
+	margin-top:50px;
+}
