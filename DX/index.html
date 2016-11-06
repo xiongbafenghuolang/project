@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<!--第一个meta标签表示：强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览--><!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">-->    <!--第二个meta标签是iphone设备中的safari私有meta标签，它表示：允许全屏模式浏览-->
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0" name="viewport">
+    <!--第二个meta标签表示：是否删除默认的苹果工具栏和菜单栏，设置Web应用是否以全屏模式运行。-->
+    <meta content=”yes” name=”apple-mobile-web-app-capable” />
+    <!--第三个meta标签也是iphone的私有标签，它指定的iphone中safari顶端的状态条的样式-->
+    <meta content=”black” name=”apple-mobile-web-app-status-bar-style” />
+    <!--第四个meta标签表示：告诉设备忽略将页面中的数字识别为电话号码（iphone）-->
+    <meta content=”telephone=no” name=”format-detection” />
+    <!--第五个meta标签表示：告诉设备忽略email（android）-->
+    <meta content=”email=no” name=”format-detection” />
+	<title>DX</title>
+	<link rel="stylesheet" type="text/css"  href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+	<link rel="stylesheet" type="text/css"  href="css/style.css"/>
+	<script src="js/swiper-3.4.0.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+<!--+++++++header开始+++++++-->
+<header class="head">
+	<a class="logo">
+		<img src="img/logo.bmp" alt="" />
+	</a>
+	<nav class="top-nav m_r">
+		<span class="iconfont">&#xe600;</span>
+		<span class="iconfont">&#xe604;</span>
+		<span class="iconfont">&#xe602;</span>
+	</nav>
+</header>
+<!--+++++++header结束+++++++-->
+<!--+++++++++搜素开始+++++++++-->
+<section class="search">
+	<span class="iconfont">&#xe601;</span>
+	<input type="text" name="" id="" value="Search DX" />
+</section>
+<!--+++++++搜索结束+++++++-->
+<!--+++++++轮播图开始++++++-->
+<div class="banner">
+	<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/bab1.jpg"/></div>
+            <div class="swiper-slide"><img src="img/bab2.jpg"/></div>
+            <div class="swiper-slide"><img src="img/bab3.jpg"/></div>
+            <div class="swiper-slide"><img src="img/bab4.jpg"/></div>
+              <div class="swiper-slide"><img src="img/bab5.jpg"/></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<!--+++++++轮播图结束++++++-->
+<!--+++++图片连接部分开始++++-->
+<section class="prefecture clearfix">
+	<ul>
+		<li>
+			<a href="">
+				<img src="img/new.jpg" alt="" />
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/mvp.jpg" alt="" />
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/latest.jpg" alt="" />
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/top-sellers.jpg" alt="" />
+			</a>
+		</li>
+	</ul>
+</section>
+<!--+++++图片连接部分结束++++-->
+<!--coupon_market部分开始-->
+<div class="coupon_market">
+	<a href="">
+		<img src="img/coupon_market.png" alt="" />
+	</a>
+</div>
+<!--coupon_market部分结束-->
+<!--spotlight开始-->
+<section class="spotlight clearfix">
+	<header class="spot-head">
+		spotlight
+	</header>
+	<div class="info clearfix">
+		<ul class="info-list p_d">
+			<li>
+				<a href="" class="img">
+					<img src="img/sku_127910_1_small.jpg" alt="" />
+				</a>
+				<div class="product-title">
+					Pen style Earcare Professional Otoscope Diagnostic...
+				</div>
+				<div class="product-cost">
+					<b>US$3.47</b>
+					<del class="product-cost">US$5.15</del>
+				</div>
+			</li>
+			<li>
+				<a href="" class="img">
+					<img src="img/sku_188625_1_small.jpg" alt="" />
+				</a>
+				<div class="product-title">
+					Pen style Earcare Professional Otoscope Diagnostic...
+				</div>
+				<div class="product-cost">
+					<b>US$3.47</b>
+					<del class="product-cost">US$5.15</del>
+				</div>
+			</li>
+			<li>
+				<a href="" class="img">
+					<img src="img/sku_450346_1_small.jpg" alt="" />
+				</a>
+				<div class="product-title">
+					Pen style Earcare Professional Otoscope Diagnostic...
+				</div>
+				<div class="product-cost">
+					<b>US$3.47</b>
+					<del class="product-cost">US$5.15</del>
+				</div>
+			</li>
+			<li>
+				<a href="" class="img">
+					<img src="img/sku_446754_1_small.jpg" alt="" />
+				</a>
+				<div class="product-title">
+					Pen style Earcare Professional Otoscope Diagnostic...
+				</div>
+				<div class="product-cost">
+					<b>US$3.47</b>
+					<del class="product-cost">US$5.15</del>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--spotlight结束-->
+<!--加载部分开始-->
+<div class="loadding">
+	<a href="">
+		<span class="iconfont">&#xe61b;</span>
+	</a>
+</div>
+<!--加载部分结束-->
+<!--footer部分开始-->
+<footer>
+	<nav class="footer-nav">
+		<a href="">Classic Site</a>
+		<a href="">Login</a>
+		<a href="">Join Free</a>
+		<a href="">Privacy Statement</a>
+		<a href="">Order Tracking</a>
+	</nav>
+	<div class="copyright">
+		<p>© 2006 -  2016 DX.com. All rights reserved. </p>
+	</div>
+</footer>
+<!--footer部分结束-->
+</body>
+</html>

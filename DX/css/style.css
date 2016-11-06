@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'iconfont';  /* project id："169561" */
+  src: url('//at.alicdn.com/t/font_xyim2mmkx3gtlnmi.eot');
+  src: url('//at.alicdn.com/t/font_xyim2mmkx3gtlnmi.eot') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_xyim2mmkx3gtlnmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_xyim2mmkx3gtlnmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_xyim2mmkx3gtlnmi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family:"iconfont";
+	font-size:2.4rem;
+}                    
+html,body{
+	width:100%;
+	height:100%;
+}
+body{
+	font-size: 62.5%;
+	font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+	background-color: #ddd;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+/*++++head开始+++++*/
+.head{
+	border-bottom: 1px solid #A9A9A9;
+	background:#fff;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding: 10px;
+}
+.head .logo{
+	width: 50%;
+	text-align: left;
+}
+.head .logo img{
+	width: 4.8rem;
+	height: 3.0rem;
+}
+.top-nav{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.top-nav span{
+	/*margin-left: 1.5rem;*/
+}
+/*++++head结束+++++*/
+/*++++search开始+++++*/
+.search{
+	padding: .4rem;
+	background: #fff;
+	color: #ccc;
+}
+.search .iconfont{
+	font-size: 2.2rem;
+}
+.search input{
+	border: 0;
+	margin-left:1.0rem;
+	height:2.0rem;
+	font-size: 1.3rem;
+	color: #ccc;
+	outline: none;
+}
+/*++++search结束+++++*/
+/*++++swiper开始+++++*/
+.banner img{
+	width:100%;
+	height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*++++swiper结束+++++*/
+/*图片浏览部分开始*/
+.prefecture{
+	width: 100%;
+	background:#fff;
+	border-bottom: 1px dashed #ccc;
+}
+.prefecture ul{
+	width: 98%;
+	margin-left: 1%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+.prefecture li{
+	width: 50%;
+	margin-top:.5rem;
+}
+.prefecture li img{
+	width:97%;
+	border-radius:.7rem;
+}
+/*图片浏览部分结束*/
+/*coupon_market开始*/
+.coupon_market{
+	width: 100%;
+	padding-top:.7rem;
+	background: #eee;
+}
+.coupon_market a{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+.coupon_market img{
+	width: 100%;
+	vertical-align: center;
+}
+/*coupon_market结束*/
+/*spotlight开始*/
+.spotlight{
+	padding: .5rem 1.0rem;
+	background:#eee;
+}
+.spotlight .spot-head{
+	border-radius: 1.0rem 1.0rem 0 0;
+	background: #fff;
+	padding: 1.0rem;
+	font-size: 1.8rem;
+	/*margin-bottom: -.2rem;*/
+}
+.spotlight .info{
+	margin-top:.5rem;
+}
+.spotlight  .info-list{
+	width:100%;
+	margin:0 auto;
+	align-items: center;
+	display: flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+}
+.info-list li{
+	width: 49%;
+	background: white;
+	margin-bottom:1rem;
+}
+.info-list li a{
+	display: block;
+	padding:1.8rem;
+	text-align: center;
+}
+.info-list li a img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.info-list .product-title{
+	height: 2.75rem;
+	line-height: 1.4rem;
+	font-size: 1.2rem;
+	color: #333;
+	margin-left:.5rem;
+	overflow: hidden;
+	display: -webkit-box;
+}
+.info-list .product-cost{
+	height:3.1rem;
+	margin:0 0 .5rem .5rem;
+}
+.info-list .product-cost b{
+	font-size: 1.4rem;
+	color: #FF9C00;
+	display: block;
+	margin-top: .3rem;
+	font-weight: 700;
+}
+.info-list .product-cost del{
+	font-size:1.2rem;
+	color:#aaa;
+	margin-left: 0;
+}
+/*spotlight结束*/
+/*加载部分开始*/
+.loadding{
+	padding-top:2.25rem;
+	padding-bottom:2.2rem;
+	text-align: center;
+	background: #eee;
+}
+.loadding a{
+	display: block;
+	width: 6rem;
+	height:6rem;
+	line-height: 6rem;
+	margin: auto;
+	border-radius: 50%;
+	color: #A9A9A9;
+	background: #666;
+}
+.loadding .iconfont{
+	font-size: 5rem;
+	font-weight:700;
+}
+/*加载部分结束*/
+/*foote部分开始*/
+footer{
+	width: 100%;
+}
+footer .footer-nav{
+	padding: 0 .4rem;
+	margin: 0 auto;
+	color:#ccc;
+	background:#fff;
+	border-bottom:1px solid #ddd;
+	text-align: center;
+}
+.footer-nav a{
+	display: inline-block;
+	line-height: 2.4rem;
+	font-size: .9rem;
+	color:#656565;
+	padding:1.0rem .4rem 0;
+}
+footer .copyright {
+    line-height: 4.4rem;
+    background-color: #fff;
+    color: #A9A9A9;
+    font-size: .9em;
+}
+footer .copyright{
+	text-align: center;
+}
+/*footer部分结束*/
+
+
+
+
+
+
+
+
+
